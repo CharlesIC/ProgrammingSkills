@@ -1,0 +1,6 @@
+C:\Personal\ProgrammingSkills\ProgrammingSkills\bin\Debug\ProgrammingSkills.exe.config
+C:\Personal\ProgrammingSkills\ProgrammingSkills\bin\Debug\ProgrammingSkills.exe
+C:\Personal\ProgrammingSkills\ProgrammingSkills\bin\Debug\ProgrammingSkills.pdb
+C:\Personal\ProgrammingSkills\ProgrammingSkills\obj\Debug\ProgrammingSkills.csprojResolveAssemblyReference.cache
+C:\Personal\ProgrammingSkills\ProgrammingSkills\obj\Debug\ProgrammingSkills.exe
+C:\Personal\ProgrammingSkills\ProgrammingSkills\obj\Debug\ProgrammingSkills.pdb
