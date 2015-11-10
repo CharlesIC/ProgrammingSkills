@@ -4,6 +4,7 @@ namespace ProgrammingSkills
 {
     using System.Collections.Generic;
     using System.Diagnostics;
+    using System.Linq;
 
     public class Program
     {
@@ -50,6 +51,30 @@ namespace ProgrammingSkills
 
             //TestequiS2();
 
+            // Filtering
+            Console.WriteLine("Filtering");
+
+            var list = new List<int>();
+            for (var i = 0; i < 20; i++)
+            {
+                list.Add(i);
+            }
+
+            var filteredList = Filtering.FilterEnumerable(list, 8).ToList();
+
+            Console.WriteLine("Original list: ");
+            foreach (var num in list)
+            {
+                Console.Write("{0} ", num);
+            }
+
+            Console.WriteLine("\nFiltered list: ");
+            foreach (var num in filteredList)
+            {
+                Console.Write("{0} ", num);
+            }
+
+            Console.WriteLine();
             Console.ReadLine();
         }
 

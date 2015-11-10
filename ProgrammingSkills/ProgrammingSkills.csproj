@@ -34,6 +34,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Equi.cs" />
+    <Compile Include="Filtering.cs" />
     <Compile Include="Playground.cs" />
     <Compile Include="PrefixSet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceHost.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
